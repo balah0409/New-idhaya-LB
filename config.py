@@ -15,18 +15,18 @@ API_HASH = getenv("c84f9df12136b93a045b354e928729b2")
 BOT_TOKEN = getenv("6556758540:AAGTLAvH3fTFj9PnhrQ86Lj-09YYEfv9I2A")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://Balah0409:Balah0409@cluster0.fdhr1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = "mongodb+srv://Balah0409:Balah0409@cluster0.fdhr1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", @idhayanvibezBot)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 99999))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002198719573"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002049003032"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = "7030014736"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQFqlboAhUuxoZ1NRLgsfBNpTkdO-fUWRhBZpp2kuRM0pcrbfr8DYKk0tPe1njPnUelJPyPZd_mpf30f9DC3bNnsZg4Tk5NqzXpufEuETkYO0UcakDIQAOEK1yi2H3nAnl902wbndnbhBB0JGzi5jpAwdMZ_f7AGduIFxVo7ZBeEBIaj6rF8OBtcAhMU5EfvH1uukq8h2rxb5fJBYye2Caj8TaY7M66HQRr9YH4lNQ6lzIYtTXhtxqwho2YhY3b6YP2BRlwpzS0uwFHvU0ogCbhfc8qcZ3d9miLiBWZn3j5lTGFWaufnToq-zmRI19VzGGQqihgl9JjkeSWPupEVMzum04OULwAAAAG9TX4zAA", 
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
